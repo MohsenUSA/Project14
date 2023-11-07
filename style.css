@@ -1,0 +1,52 @@
+/* Styling the map container */
+#map {
+  /* Seting the width and height of the map container */
+  width: 800px;
+  height: 600px;
+  /* Centering the map container horizontally */
+  margin: auto;
+}
+
+/* Adding some margin to the top of the map container */
+#map {
+  margin-top: 20px;
+}
+
+/* Styling the popups */
+.leaflet-popup-content-wrapper {
+  /* Seting the background color and text color of the popup content */
+  background-color: white;
+  color: #333;
+  /* Seting the font size and padding of the popup content */
+  font-size: 14px;
+  padding: 8px;
+  /* Adding rounded corners and a box shadow to the popup */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the popup close button */
+.leaflet-popup-close-button {
+  /* Setting the font size, font weight, and color of the close button */
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  /* Adding a text shadow to the close button for better visibility */
+  text-shadow: 0 1px 0 #fff;
+  /* Setting the opacity of the close button */
+  opacity: 0.5;
+  /* Making the background of the close button transparent */
+  background: transparent;
+  /* Removing the border around the close button */
+  border: none;
+  /* Positioning the close button at the top right corner of the popup */
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* Setting padding and margin to zero for a clean look */
+  padding: 0;
+  margin: 0;
+  /* Setting the cursor to a pointer to indicate it's clickable */
+  cursor: pointer;
+}
